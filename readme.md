@@ -39,4 +39,6 @@ Example
 
 Tech
 ===
-* tbd 
+* assets loaded by xhr to control the order and timeouts
+* so scripts should have cors enabled, like cloudfront has
+* browser support: ie9+, all recent desktop and mobile
