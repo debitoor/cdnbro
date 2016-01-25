@@ -1,7 +1,13 @@
 {
   "name": "cdnbro",
   "version": "1.0.0",
-  "description": "",
+  "description": "fallback for cdn assets",
+  "keywords": [
+    "cdn",
+    "fallback",
+    "loader",
+    "scripts"
+  ],
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha"
