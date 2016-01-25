@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script>
+	[cdnbro]
+	cdnbro(
+		[
+			'/asset.css?text=body{color:green;}',
+			'/asset-slow.js?hang=1000&text=cdn-',
+			'/asset.js?text=works'],
+		[
+			'/asset-nocdn.css',
+			'/asset-nocdn-slow.js',
+			'/asset-nocdn.js'],
+		3000);
+	</script>
+</head>
+<body>
+</body>
+</html>

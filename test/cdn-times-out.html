@@ -1,0 +1,19 @@
+<html>
+<head>
+	<script>
+	[cdnbro]
+	cdnbro(
+		[
+			'/asset.css?hang=10000',
+			'/asset-slow.js?hang=10000',
+			'/asset.js?hang=10000'],
+		[
+			'/asset.css?text=body{color:green;}',
+			'/asset-slow.js?hang=1000&text=cdn-fallback-',
+			'/asset.js?text=works-fast'],
+		3000);
+	</script>
+</head>
+<body>
+</body>
+</html>

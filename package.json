@@ -1,0 +1,27 @@
+{
+  "name": "cdnbro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.3.0",
+    "chai-pretty-expect": "^1.0.1",
+    "chai-subset": "^1.1.0",
+    "express": "^4.13.4",
+    "mocha": "^2.3.3",
+    "standard": "^5.3.1"
+  },
+  "standard": {
+    "globals": [
+      "describe",
+      "before",
+      "it",
+      "expect"
+    ]
+  }
+}
