@@ -1,6 +1,6 @@
 {
   "name": "cdnbro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fallback for cdn assets",
   "keywords": [
     "cdn",
