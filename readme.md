@@ -1,16 +1,20 @@
 [![Build Status](https://travis-ci.org/debitoor/cdnbro.png?branch=master)](https://travis-ci.org/debitoor/cdnbro) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
 Why?
+===
 * cdn constantly fails, especially cloudfront
 * when cdn fails, each asset blocks an execution for 30 sec
 * we would like to have smaller time out for cdn
 
 Solution
+===
 * load assets asynchronously
 * if cdn times out - load fallback
 * mark cdn as failed for 1 day and use fallback sources during that
 
 Example
+===
+
 ```
 <script>
 window.cdnbro(
@@ -23,6 +27,8 @@ window.cdnbro(
 		"/libs-07b7cfb48a.js",
 		"/scripts-7c0c10b50f.js"], 10000);
 </script>
+```
 
 Tech
+===
 * tbd 
