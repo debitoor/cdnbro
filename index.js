@@ -75,6 +75,7 @@
   function loadJs (asset) {
     var s = d.createElement('script')
     s.innerHTML = asset.src
+    s.crossorigin = 'anonymous'
     ondom(function () {
       d.body.appendChild(s)
       try { d.body.removeChild(s) } catch (e) { }
